@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Robobto!';
+    src: local('Roboto');
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+body {
+    background-color: #FFE2B0;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+ul {
+    padding: 0%;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: red;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+.section-about {
+    background-image: url(../img/01-Картинка-фона.jpg);
+    height: 640px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.section-about_block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178,
+    0.8) 0%, rgba(234, 156, 65, 0.8)100%);
+    position: absolute;
+    top: 54%;
+    left: 52%;
+    padding-top: 15px;
+}
+
+.section-about_border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.special_order {
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    margin-top: 17px;
+    margin-left: 28px;
+    margin-right: 28px;
+    font-family: 'Roboto!';
+}
+
+.section-about_border_text {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 9px;
+    font-family: 'Roboto!';
+    text-align: left;
+    margin-left: 28px;
+    margin-left: 28px;
+}
+
+.shop-icons {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shop-icons_1{
+    height: 290px;
+    width: 290px;
+    margin-right: 76px;
+}
+.shop-icons_2{
+    height: 290px;
+    width: 290px;
+}
+.shop-icons_3{
+    height: 290px;
+    width: 290px;
+    margin-left: 76px;
+}
+
+.second_heading_text {
+    font-size: 96px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Roboto!';
+}
+.text_color {
+    color: #F15B40;
+}
+
+.text-under-the-second-heading {
+    font-size: 18px;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Roboto!';
+}
+
+.order_map_title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.line {
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.bottom_nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    height: 80px;
+}
+
+h1 {
+    font-family: 'Roboto!';
+}
